@@ -1,0 +1,11 @@
+.redesSociales__link{
+    text-decoration: none;
+    color: #464646;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.redesSociales__link:hover{
+    color: #13226e;
+    text-decoration: underline;
+}

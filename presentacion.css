@@ -1,0 +1,6 @@
+.presentacion{
+    display: flex;
+    gap: 3rem;
+    background: #F5F5F5;
+    padding: 2rem 3.25rem ;
+}

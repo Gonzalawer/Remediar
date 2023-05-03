@@ -1,0 +1,10 @@
+.experiencia__linea{
+    display: flex;
+    gap: 1rem;
+}
+
+.reverse{
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
+

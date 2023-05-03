@@ -1,0 +1,13 @@
+.nombre__empresa{
+    display: flex;
+    width: 150px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.nombre{
+    color: #464646;
+    font-size: 1.1rem;
+    font-weight: 700;
+}

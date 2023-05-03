@@ -1,0 +1,15 @@
+.formacion__item{
+    list-style: none;
+}
+
+.formacion__item--tema{
+    color: #464646;
+    font-size: 1.375rem;
+    font-weight: 700;
+}
+
+.formacion__item--anho{
+    color: #464646;
+    font-size: 1rem;
+    font-weight: 500;
+}

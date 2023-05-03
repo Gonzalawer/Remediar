@@ -1,0 +1,7 @@
+.servicios__caja{
+    background: #ffffff;
+    width: 90%;
+    height: 174px;
+    display: flex;
+    justify-content: center;
+}
