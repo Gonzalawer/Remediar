@@ -1,3 +1,8 @@
 .ventajas__imagen{
     margin: .5rem 0 .5rem 1rem;
 }
+
+.ventajas__imagen--item{
+    width: 60px;
+}
+

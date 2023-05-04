@@ -1,6 +1,15 @@
-.nosotros__descripcion{
+.nosotros__descripcion--01{
     font-size: 1rem;
     font-weight: 400;
     color: #464646;
     text-align: justify;
+    margin: 0rem 0rem 3rem 0rem;
+}
+
+.nosotros__descripcion--02{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #464646;
+    text-align: justify;
+    margin: 0rem 0rem 0rem 0rem;
 }
