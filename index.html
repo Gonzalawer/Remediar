@@ -93,13 +93,13 @@
             <div class="menu">
                 <nav class="menu__navegacion">
                     <ul class="menu__lista">
-                        <li class="menu__item"><a href="#" class="menu__link">Empresa</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">¿Por qué un Mediador?</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Servicios</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Nosotros</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Ventajas</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Conflictos</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Contacto</a></li>
+                        <li class="menu__item"><a href="#empresa" class="menu__link">Empresa</a></li>
+                        <li class="menu__item"><a href="#mediador" class="menu__link">¿Por qué un Mediador?</a></li>
+                        <li class="menu__item"><a href="#servicios" class="menu__link">Servicios</a></li>
+                        <li class="menu__item"><a href="#nosotros" class="menu__link">Nosotros</a></li>
+                        <li class="menu__item"><a href="#ventajas" class="menu__link">Ventajas</a></li>
+                        <li class="menu__item"><a href="#conflictos" class="menu__link">Conflictos</a></li>
+                        <li class="menu__item"><a href="#contacto" class="menu__link">Contacto</a></li>
                     </ul>
                 </nav>
             </div>
@@ -121,7 +121,7 @@
 
     <!-- Sección En la Empresa -->
     <section class="contenedor">
-        <div class="contenido">
+        <div class="contenido" id="empresa">
             <div class="contenido__info">
                 <div class="empresa">
                     <h2 class="empresa__titulo">En la Empresa</h2>
@@ -141,7 +141,7 @@
                 </div>
     
                 <!-- Sección ¿Por que contar con un mediador? -->
-                <div class="mediador">
+                <div class="mediador" id="mediador">
                     <h2 class="mediador__titulo">¿Porqué contar con un mediador empresarial?</h2>
                     <p class="mediador__descripcion">El mediador no es un terapeuta ni un abogado de las partes, él está
                         para
@@ -159,8 +159,8 @@
 
     <!-- Sección Servicios -->
     <section class="contenedor">
-        <div class="servicios">
-            <h3 class="servicios__titulo">Nuestros Servicios de Mediación</h3>
+        <div class="servicios" id="servicios">
+            <h2 class="servicios__titulo">Nuestros Servicios de Mediación</h2>
             
             <div class="servicios__linea">
                 <div class="servicios__caja hover__gray">
@@ -202,7 +202,7 @@
 
     <!-- Sección Nosotros -->
     <section class="contenedor">
-        <div class="nosotros">
+        <div class="nosotros" id="nosotros">
             <h2 class="nosotros__titulo">Nosotros</h2>
             <p class="nosotros__descripcion--01">Somos un grupo de mediadores profesionistas en derecho con formación y experiencia acreditada, certificados y autorizados por el Centro Estatal de Justicia Alternativa del Poder Judicial del Estado de Veracruz.
                 <br><br>
@@ -215,8 +215,8 @@
 
     <!-- Sección Ventajas -->
     <section class="contenedor">
-        <div class="ventajas">
-            <h3 class="ventajas__titulo">Ventajas</h3>
+        <div class="ventajas" id="ventajas">
+            <h2 class="ventajas__titulo">Ventajas</h2>
             <div class="ventajas__linea">
                 <div class="ventajas__caja hover__gray hover__display">
                     <ul class="ventajas__lista">
@@ -272,8 +272,8 @@
 
         <!-- Sección ¿En qué conflictos? -->
         <section class="contenedor">
-            <div class="conflictos">
-                <h3 class="conflictos__titulo">¿En qué conflictos?</h3>
+            <div class="conflictos" id="conflictos">
+                <h2 class="conflictos__titulo">¿En qué conflictos?</h2>
                 
                 <div class="conflictos__linea">
                     <div class="conflictos__caja hover__gray">
@@ -320,7 +320,7 @@
 
     <!-- Sección contacto -->
     <section class="contenedor">
-        <div class="contacto">
+        <div class="contacto" id="contacto">
             <div class="contacto__bloque">
                 <div class="contacto__imagen">
                     <img src="img/contact_image.png" alt="Imagen contacto" class="contacto__imagen--imagen">
@@ -375,51 +375,71 @@
         </div>
     </section>
 
+
+<!-- Sección footer -->
+<footer class="contenedor">
+    <div class="footer footer__border">
+        <!-- Sección footer menu -->
+        <div class="menu__footer">
+            <h2 class="footer__titulo">Menú</h2>
+            <ul class="menu__footer--lista">
+                <li class="footer__menu--item"><a href="#empresa" class="footer__menu--link">Empresa</a></li>
+                <li class="footer__menu--item"><a href="#mediador" class="footer__menu--link">¿Por qué un Mediador?</a>
+                </li>
+                <li class="footer__menu--item"><a href="#servicios" class="footer__menu--link">Servicios</a></li>
+                <li class="footer__menu--item"><a href="#nosotros" class="footer__menu--link">Nosotros</a></li>
+                <li class="footer__menu--item"><a href="#ventajas" class="footer__menu--link">Ventajas</a></li>
+                <li class="footer__menu--item"><a href="#conflictos" class="footer__menu--link">Conflictos</a></li>
+                <li class="footer__menu--item"><a href="#contacto" class="footer__menu--link">Contacto</a></li>
+            </ul>
+        </div>
+
+        <!-- Sección footer redes sociales -->
+        <div class="redes__sociales">
+            <h2 class="footer__titulo">Redes Sociales</h2>
+            <div>
+                <ul class="redes__sociales--lista">
+                    <li class="redes__sociales--item"><img src="img/facebook.png" class="redes__sociales--imagen"
+                            alt="Imagen logo facebook"></li>
+                    <li class="redes__sociales--item"><img src="img/instagram.png" class="redes__sociales--imagen"
+                            alt="Imagen logo instagram"></li>
+                    <li class="redes__sociales--item"><img src="img/gorjeo.png" class="redes__sociales--imagen"
+                            alt="Imagen logo twitter"></li>
+                    <li class="redes__sociales--item"><img src="img/linkedin.png" class="redes__sociales--imagen"
+                            alt="Imagen logo linkedin"></li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- Sección footer avisos-->
+        <div class="footer__avisos">
+            <h2 class="footer__titulo">Avisos</h2>
+            <ul class="footer__avisos--lista">
+                <li class="footer__avisos--item">Términos de Uso</li>
+                <li class="footer__avisos--item">Privacidad de Datos</li>
+            </ul>
+        </div>
+
+        <!-- Sección footer atribuciones-->
+        <div class="atribuciones">
+            <h2 class="footer__titulo">Atribuciones</h2>
+        </div>
+
+    </div>
+
+    <div class="creditos">
+        <p class="creditos">Remediar 2023</p>
+        <p class="soporte">Cualquier asunto relacionado con este portal favor de dirigirse a: gonza.8bits@gmail.com</p>
+    </div>
+
+</footer>
+
     <button class="toTop" id="toTop">
         <svg viewBox="0 0 24 24">
             <path d="m4 16 8-8 8 8"></path>
         </svg>
     </button>
-
-    <footer class="contenedor">
-        <div class="footer">
-            <div class="avisos">
-
-                <ul class="avisos__lista">
-                    <li class="avisos__items">Términos de Uso</li>
-                    <li class="avisos__items">Privacidad de Datos</li>
-                    <li class="avisos__items"></li>
-                    <li class="avisos__items"></li>
-                    <li class="avisos__items"></li>
-                </ul>
-
-            </div>
-
-            <div class="menu__footer">
-                <h3 class="titulo__footer">Menú</h3>
-                <ul class="menu__footer--lista">
-                    <li class="menu__footer--item"><a href="#" class="menu__link">Empresa</a></li>
-                    <li class="menu__footer--item"><a href="#" class="menu__link">¿Por qué un Mediador?</a></li>
-                    <li class="menu__footer--item"><a href="#" class="menu__link">Servicios</a></li>
-                    <li class="menu__footer--item"><a href="#" class="menu__link">Nosotros</a></li>
-                    <li class="menu__footer--item"><a href="#" class="menu__link">Ventajas</a></li>
-                    <li class="menu__footer--item"><a href="#" class="menu__link">Conflictos</a></li>
-                    <li class="menu__footer--item"><a href="#" class="menu__link">Contacto</a></li>
-                </ul>
-            </div>
-
-            <div class="redes__sociales">
-
-            </div>
-            <div class="atribuciones">
-
-            </div>
-
-            
-
-        </div>
-        
-    </footer>
 
     <script src="js/script.js"></script>
 </body>

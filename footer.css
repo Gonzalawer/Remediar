@@ -1,4 +1,75 @@
 .footer{
-    background: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    background: #ffffff;
     padding: 4rem 9.5rem;
+    color: #464646;
+
+    padding: 2rem 6rem 2rem 6rem;
+}
+
+.footer__border{
+    border-top: 7px solid #4d4b4b;
+}
+
+.footer__titulo{
+    font-size: 1.2rem;
+    font-weight: 700;
+}
+
+/* footer menú */ 
+
+.footer__menu--item{
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: .375rem;
+}
+
+.footer__menu--item:nth-child(7){
+    font-weight: 700;
+}
+
+.footer__menu--link{
+        color: #464646;
+        text-decoration: none;
+}
+
+.footer__menu--link:hover{
+    color: #13226e;
+    text-decoration: underline;
+}
+
+/* footer redes sociales*/
+
+.redes__sociales--lista{
+    display: flex;
+}
+
+.redes__sociales--item{
+    list-style: none;
+    padding-right: .7rem;
+}
+
+.redes__sociales--imagen{
+    width: 30px;
+}
+
+/* footer Avisos */
+
+.footer__avisos--item{
+    list-style: none;
+    font-size: 1rem;
+    font-weight: 400;
+    padding-bottom: .375rem;
+}
+
+/* créditos */
+
+.creditos{
+    
+    color: #464646;
+    text-align: center;
+    font-size: .7rem;
+    font-weight: 700;
 }
