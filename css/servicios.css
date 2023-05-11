@@ -48,6 +48,7 @@
 .hover__gray:hover {
     -webkit-filter: grayscale(0);
 	filter: grayscale(0);
+    box-shadow: 1px 9px 20px -5px rgba(0, 0, 0, 0.59);
 }
 
 .servicios__imagen--item{
