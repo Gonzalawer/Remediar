@@ -1,0 +1,28 @@
+.nosotros{
+    background: #EAF2FD;
+    padding: 2rem 3.25rem;
+}
+
+.nosotros__titulo{
+    color: #464646;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: .5rem;
+}
+
+.nosotros__descripcion--01{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #464646;
+    text-align: justify;
+    margin: 0rem 0rem 3rem 0rem;
+}
+
+.nosotros__descripcion--02{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #464646;
+    text-align: justify;
+    margin: 0rem 0rem 0rem 0rem;
+}

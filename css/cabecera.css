@@ -1,0 +1,81 @@
+.cabecera{
+    display: flex;
+    justify-content: space-between;
+    background-color: #F5F5F5;
+    padding: 0 3.25rem;
+}
+
+.nombre__empresa{
+    display: flex;
+    width: 150px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 5px;
+}
+
+.nombre{
+    color: #464646;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 0 0 0 6px;
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+}
+
+/* .menu__navegacion{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99999;
+    margin-left: auto;
+    margin-right: auto;
+} */
+
+.menu__lista{
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.menu__item{
+    list-style: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.menu__item:nth-child(7){
+    font-weight: 700;
+}
+
+.menu__link{
+    color: #464646;
+    text-decoration: none;
+}
+
+.menu__link:hover{
+    color: #13226e;
+    text-decoration: underline;
+}
+
+/* Pantallas largas */
+@media only screen and (max-width: 1024px) {
+    .menu__item{
+        font-size: .8rem;
+    }
+}
+
+/* Laptops y Tablets*/
+@media only screen and (max-width: 768px) {
+
+}
+
+
+/* Celulares */
+@media only screen and (max-width: 600px) {
+
+}

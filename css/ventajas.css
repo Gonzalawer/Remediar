@@ -1,0 +1,52 @@
+.ventajas{
+    background: #F5F5F5;
+    /* padding: 30px 0 30px 0; */
+    padding: 2rem 3.25rem;
+}
+
+.ventajas__titulo{
+    text-align: center;
+    color: #464646;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-bottom: 1.875rem;
+}
+
+.ventajas__linea{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.ventajas__lista{
+    list-style: none;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.ventajas__caja{
+    background: #ffffff;
+    width: 280px;
+    height: 174px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.ventajas__imagen{
+    margin: .5rem 0 .5rem 1rem;
+}
+
+.ventajas__imagen--item{
+    width: 60px;
+    height: 60px;
+}
+
+.ventajas__nombre{
+    color: #132ea7;
+    font-weight: 700;
+    font-size: 1rem;
+    width: 144px;
+    /* margin: .5rem 0 .5rem 1rem; */
+}

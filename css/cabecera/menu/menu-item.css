@@ -1,9 +1,0 @@
-.menu__item{
-    list-style: none;
-    font-size: 1.1rem;
-    font-weight: 500;
-}
-
-.menu__item:nth-child(7){
-    font-weight: 700;
-}

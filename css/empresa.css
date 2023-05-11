@@ -1,0 +1,36 @@
+.empresa{
+    background: #EAF2FD;
+    padding: 4rem 0rem 1rem 3.25rem;
+}
+
+.empresa__titulo{
+    font-size: 2rem;
+    color: #464646;
+    font-weight: 700;
+}
+
+.empresa__descripcion{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #464646;
+    text-align: justify;
+}
+
+.contenido{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    background: #EAF2FD;
+    padding: 2rem 3.25rem ;
+}
+
+.contenido__info{
+    display: flex;
+    flex-direction: column;
+}
+
+.contenido__imagen--item{
+    width: 300px;
+    /* height: 370px; */
+    border-radius: 5px;
+}
