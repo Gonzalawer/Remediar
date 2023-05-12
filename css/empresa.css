@@ -34,3 +34,33 @@
     /* height: 370px; */
     border-radius: 5px;
 }
+
+/* Responsive */
+@media only screen and (max-width: 992px){
+    .contenido{
+        flex-direction: column;
+        padding: 1rem 0.5rem;
+    }
+
+    .empresa{
+        padding: 0;
+    }
+
+    .empresa__titulo{
+        font-size: 1.3rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .empresa__descripcion{
+        font-size: 0.7;
+    }
+
+    .contenido__info{
+        gap: 1rem;
+    }
+
+}
+
+@media only screen and (max-width: 576px){
+
+}

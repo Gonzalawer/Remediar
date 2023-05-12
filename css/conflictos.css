@@ -29,6 +29,10 @@
     padding: 1rem 1rem;
 }
 
+.conflictos__lista--puntos .conflictos__info--puntos{
+    font-size: 1rem;
+}
+
 .conflictos__caja{
     background: #ffffff;
     width: 90%;
@@ -80,4 +84,43 @@
     font-weight: bold;
     color: #464646;
     text-align: center;
+}
+
+/* Responsive */
+@media only screen and (max-width: 992px){
+    .conflictos{
+        padding: 2rem 0.5rem;
+    }
+
+    .conflictos__linea{
+        flex-direction: column;
+    }
+
+    .conflictos__lista{
+        flex-wrap: wrap;
+    }
+
+    .conflictos__lista--puntos .conflictos__info--puntos{
+        font-size: 0.8rem;
+    }
+
+    .conflictos__caja{
+        width: 100%;
+        height: 100%;
+    }
+
+    .conflictos__info{
+        margin: 0;
+    }
+
+}
+
+@media only screen and (max-width: 1330px){
+    .conflictos__info{
+        font-size: 0.9rem;
+    }
+
+    .conflictos__lista--puntos .conflictos__info--puntos{
+        font-size: 0.9rem;
+    }
 }

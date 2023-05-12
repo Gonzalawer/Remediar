@@ -16,7 +16,7 @@
     font-weight: 400;
     color: #464646;
     text-align: justify;
-    margin: 0rem 0rem 3rem 0rem;
+    padding-bottom: 3rem;
 }
 
 .nosotros__descripcion--02{
@@ -25,4 +25,19 @@
     color: #464646;
     text-align: justify;
     margin: 0rem 0rem 0rem 0rem;
+}
+
+/* Responsive */
+@media only screen and (max-width: 992px){
+    .nosotros{
+        padding: 2rem 0.5rem;
+    }
+
+    .nosotros__descripcion--01{
+        padding-bottom: 1.5rem;
+    }
+}
+
+@media only screen and (max-width: 576px){
+
 }

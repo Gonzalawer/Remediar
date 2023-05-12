@@ -15,3 +15,29 @@
     color: #464646;
     text-align: justify;
 }
+
+/* Responsive */
+@media only screen and (max-width: 992px){
+
+    .mediador{
+        padding: 0;
+    }
+
+    .mediador__titulo{
+        font-size: 1.3rem;
+        padding-bottom: 0.5rem;
+    }
+
+    .mediador__descripcion{
+        font-size: 0.7;
+    }
+
+    .contenido__imagen{
+        display: none;
+    }
+
+}
+
+@media only screen and (max-width: 576px){
+
+}

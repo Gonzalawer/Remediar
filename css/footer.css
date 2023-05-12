@@ -73,3 +73,25 @@
     font-size: .7rem;
     font-weight: 700;
 }
+
+/* Responsive */
+@media only screen and (max-width: 992px){
+    .footer{
+        flex-wrap: wrap;
+        padding: 2rem 2rem;
+    }
+
+    .menu__footer{
+        display: none;
+    }
+
+    .redes__sociales,
+    .footer__avisos,
+    .atribuciones{
+        padding-bottom: 1rem;
+    }
+}
+
+@media only screen and (max-width: 1330px){
+
+}

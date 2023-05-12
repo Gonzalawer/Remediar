@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Remediar</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +13,7 @@
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/cabecera.css">
+    <link rel="stylesheet" href="css/menu.css">
     <link rel="stylesheet" href="css/presentacion.css">
     <link rel="stylesheet" href="css/empresa.css">
     <link rel="stylesheet" href="css/mediador.css">
@@ -26,6 +28,7 @@
 
 <body>
     <!-- Menú Cabecera -->
+    <!--
     <header class="contenedor menu__navegacion">
         <div class="cabecera">
             <div class="nombre__empresa">
@@ -47,6 +50,39 @@
             </div>
         </div>
     </header>
+    -->
+
+    <!-- Menú Nuevo Responsive -->
+    <header class="contenedor menu">
+        <div class="navbar">
+            <div class="logo"><a href="#">Remediar</a></div>
+            <ul class="links">
+                <li class="menu__link--item"><a href="#empresa">Empresa</a></li>
+                <li class="menu__link--item"><a href="#mediador">¿Por qué un Mediador?</a></li>
+                <li class="menu__link--item"><a href="#servicios">Servicios</a></li>
+                <li class="menu__link--item"><a href="#nosotros">Nosotros</a></li>
+                <li class="menu__link--item"><a href="#ventajas">Ventajas</a></li>
+                <li class="menu__link--item"><a href="#conflictos">Conflictos</a></li>
+                <li class="menu__link--item"><a href="#contacto">Contacto</a></li>
+            </ul>
+            <!-- <a href="#" class="action_btn">Get Started</a> -->
+            <div class="toggle_btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+        </div>
+
+        <div class="dropdown__menu">
+            <li class="menu__link--item"><a href="#empresa">Empresa</a></li>
+            <li class="menu__link--item"><a href="#mediador">¿Por qué un Mediador?</a></li>
+            <li class="menu__link--item"><a href="#servicios">Servicios</a></li>
+            <li class="menu__link--item"><a href="#nosotros">Nosotros</a></li>
+            <li class="menu__link--item"><a href="#ventajas">Ventajas</a></li>
+            <li class="menu__link--item"><a href="#conflictos">Conflictos</a></li>
+            <li class="menu__link--item"><a href="#contacto">Contacto</a></li>
+            <!-- <li class="menu__link--item"><a href="#" class="action_btn">Get Started</a></li> -->
+        </div>
+    </header>
+
 
     <!-- Sección Presentación -->
     <section class="contenedor">
@@ -158,51 +194,51 @@
         <div class="ventajas" id="ventajas">
             <h2 class="ventajas__titulo">Ventajas</h2>
             <div class="ventajas__linea">
-                <div class="ventajas__caja hover__gray hover__display">
+                <div class="ventajas__caja hover__gray">
                     <ul class="ventajas__lista">
-                        <li class="ventajas__imagen"><img src="img/acuerdo.png" class="ventajas__imagen--item" alt="Icono HTML"></li>
+                        <li class="ventajas__imagen"><img src="img/acuerdo.png" class="ventajas__imagen--item" alt="Imagen Ventajas"></li>
                         <li class="ventajas__nombre">Previene, simplifica o pone fin a un procedimiento judicial</li>
                     </ul>
                 </div>
                 <div class="ventajas__caja hover__gray">
                     <ul class="ventajas__lista">
-                        <li class="ventajas__imagen hover__display--item"><img src="img/acuerdo.png" class="ventajas__imagen--item" alt="Icono Node JS"></li>
+                        <li class="ventajas__imagen hover__display--item"><img src="img/acuerdo.png" class="ventajas__imagen--item" alt="Imagen Ventajas"></li>
                         <li class="ventajas__nombre">Reduce el costo emocional, económico y temporal del conflicto</li>
                     </ul>
                 </div>
                 <div class="ventajas__caja hover__gray">
                     <ul class="ventajas__lista">
-                        <li class="ventajas__imagen"><img src="img/acuerdo.png" class="ventajas__imagen--item" alt="Icono Node JS"></li>
+                        <li class="ventajas__imagen"><img src="img/acuerdo.png" class="ventajas__imagen--item" alt="Imagen Ventajas"></li>
                         <li class="ventajas__nombre">Crea un espacio abierto para la comunicación y el diálogo</li>
                     </ul>
                 </div>
                 <div class="ventajas__caja hover__gray">
                     <ul class="ventajas__lista">
-                        <li class="ventajas__imagen"><img src="img/acuerdo.png" class="ventajas__imagen--item" alt="Icono Node JS"></li>
+                        <li class="ventajas__imagen"><img src="img/acuerdo.png" class="ventajas__imagen--item" alt="Imagen Ventajas"></li>
                         <li class="ventajas__nombre">Restablece o mejorar relaciones deterioradas</li>
                     </ul>
                 </div>
                 <div class="ventajas__caja hover__gray">
                     <ul class="ventajas__lista">
-                        <li class="ventajas__imagen"><img src="img/acuerdo.png" class="ventajas__imagen--item" alt="Icono Node JS"></li>
+                        <li class="ventajas__imagen"><img src="img/acuerdo.png" class="ventajas__imagen--item" alt="Imagen Ventajas"></li>
                         <li class="ventajas__nombre">Soluciones personalizadas adaptadas a sus necesidades</li>
                     </ul>
                 </div>
                 <div class="ventajas__caja hover__gray">
                     <ul class="ventajas__lista">
-                        <li class="ventajas__imagen"><img src="img/acuerdo.png" class="ventajas__imagen--item" alt="Icono Node JS"></li>
+                        <li class="ventajas__imagen"><img src="img/acuerdo.png" class="ventajas__imagen--item" alt="Imagen Ventajas"></li>
                         <li class="ventajas__nombre">Acuerdos más duraderos y respetados</li>
                     </ul>
                 </div>
                 <div class="ventajas__caja hover__gray">
                     <ul class="ventajas__lista">
-                        <li class="ventajas__imagen"><img src="img/acuerdo.png" class="ventajas__imagen--item" alt="Icono Node JS"></li>
+                        <li class="ventajas__imagen"><img src="img/acuerdo.png" class="ventajas__imagen--item" alt="Imagen Ventajas"></li>
                         <li class="ventajas__nombre">Posibilidad de elevar el acuerdo a cosa juzgada</li>
                     </ul>
                 </div>
                 <div class="ventajas__caja hover__gray">
                     <ul class="ventajas__lista">
-                        <li class="ventajas__imagen"><img src="img/acuerdo.png" class="ventajas__imagen--item" alt="Icono Node JS"></li>
+                        <li class="ventajas__imagen"><img src="img/acuerdo.png" class="ventajas__imagen--item" alt="Imagen Ventajas"></li>
                         <li class="ventajas__nombre">Es un procedimiento voluntario, confidencial, neutral y flexible</li>
                     </ul>
                 </div>
@@ -244,12 +280,12 @@
                                 alt="Icono conflicto"></li>
                         <li class="conflictos__nombre">Disputas económicas y reclamaciones profesionales</li>
                         <li class="conflictos__info">
-                            <ul class="conflictos__info--lista">
-                                <li class="conflictos__info--item">Cobro o pago de deudas.</li>
-                                <li class="conflictos__info--item">Compra venta: no le han pagado o no le han firmado.</li>
-                                <li class="conflictos__info--item">Rentó una casa o algún bien que no le quieren devolver.</li>
-                                <li class="conflictos__info--item">Compró un bien o contrató un servicio con el que usted no está satisfecho.</li>
-                                <li class="conflictos__info--item">Prestó un bien que desea le devuelvan.</li>
+                            <ul class="conflictos__lista--puntos">
+                                <li class="conflictos__info--puntos">Cobro o pago de deudas.</li>
+                                <li class="conflictos__info--puntos">Compra venta: no le han pagado o no le han firmado.</li>
+                                <li class="conflictos__info--puntos">Rentó una casa o algún bien que no le quieren devolver.</li>
+                                <li class="conflictos__info--puntos">Compró un bien o contrató un servicio con el que usted no está satisfecho.</li>
+                                <li class="conflictos__info--puntos">Prestó un bien que desea le devuelvan.</li>
                             </ul>
                         </li>
                     </ul>
@@ -392,8 +428,7 @@
     </button>
 
     <script src="js/script.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
 
 </body>
 
