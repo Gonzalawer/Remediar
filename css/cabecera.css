@@ -1,7 +1,19 @@
+:root{
+    --color-fondo: #6cb4ce; /*Valor Original #e5e5e5*/
+    --color-seccion-01: #fff; /*Valor Original #F5F5F5*/
+    --color-seccion-02: #fff; /*Valor Original #EAF2FD*/
+    --color-texto: #464646; /*Valor Original #464646*/
+    --color-blanco: #bcd4de; /*Valor Original #ffffff*/
+    --color-negro: #000000; /*Valor Original #000000*/
+    --color-hover-link: #13226e; /*Valor Original #13226e*/
+    --color-boton-subir: #252525; /*Valor Original #252525*/
+    --color-linea-footer: #4d4b4b; /*Valor Original #4d4b4b*/
+}
+
 .cabecera{
     display: flex;
     justify-content: space-between;
-    background-color: #F5F5F5;
+    background-color: var(--color-seccion-01);
     padding: 0 3.25rem;
 }
 
@@ -14,7 +26,7 @@
 }
 
 .nombre{
-    color: #464646;
+    color: var(--color-texto);
     font-size: 1.2rem;
     font-weight: 700;
     margin: 0 0 0 6px;
@@ -53,12 +65,12 @@
 }
 
 .menu__link{
-    color: #464646;
+    color: var(--color-texto);
     text-decoration: none;
 }
 
 .menu__link:hover{
-    color: #13226e;
+    color: var(--color-hover-link);
     text-decoration: underline;
 }
 

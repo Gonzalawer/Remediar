@@ -1,15 +1,15 @@
 .footer{
     display: flex;
     justify-content: space-between;
-    background: #ffffff;
+    background: var(--color-blanco);
     padding: 4rem 9.5rem;
-    color: #464646;
+    color: var(--color-texto);
 
     padding: 2rem 6rem 2rem 6rem;
 }
 
 .footer__border{
-    border-top: 7px solid #4d4b4b;
+    border-top: 7px solid var(--color-linea-footer);
 }
 
 .footer__titulo{
@@ -32,7 +32,7 @@
 }
 
 .footer__menu--link{
-        color: #464646;
+        color: var(--color-texto);
         text-decoration: none;
 }
 
@@ -69,7 +69,7 @@
 
 .creditos{
     
-    color: #464646;
+    color: var(--color-texto);
     text-align: center;
     font-size: .7rem;
     font-weight: 700;

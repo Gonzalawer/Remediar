@@ -1,18 +1,18 @@
 .empresa{
-    background: #EAF2FD;
+    background: var(--color-seccion-02);
     padding: 4rem 0rem 1rem 3.25rem;
 }
 
 .empresa__titulo{
     font-size: 2rem;
-    color: #464646;
+    color: var(--color-texto);
     font-weight: 700;
 }
 
 .empresa__descripcion{
     font-size: 1rem;
     font-weight: 400;
-    color: #464646;
+    color: var(--color-texto);
     text-align: justify;
 }
 
@@ -20,7 +20,7 @@
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    background: #EAF2FD;
+    background: var(--color-seccion-02);
     padding: 2rem 3.25rem ;
 }
 

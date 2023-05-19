@@ -1,19 +1,19 @@
 .presentacion{
     display: flex;
     gap: 4rem;
-    background: #F5F5F5;
+    background: var(--color-seccion-01);
     padding: 2rem 3.25rem ;
 }
 
 .presentacion__frase--1{
-    color: #464646;
+    color: var(--color-texto);
     font-size: 4rem;
     font-weight: 700;
     margin: 0;
 }
 
 .presentacion__frase--2{
-    color: #464646;
+    color: var(--color-texto);
     font-size: 1.75rem;
     font-weight: 400;
     text-transform: uppercase;

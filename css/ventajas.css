@@ -1,12 +1,12 @@
 .ventajas{
-    background: #F5F5F5;
+    background: var(--color-seccion-01);
     /* padding: 30px 0 30px 0; */
     padding: 2rem 3.25rem;
 }
 
 .ventajas__titulo{
     text-align: center;
-    color: #464646;
+    color: var(--color-texto);
     font-size: 2rem;
     font-weight: 700;
     padding-bottom: 1.875rem;
@@ -28,7 +28,7 @@
 }
 
 .ventajas__caja{
-    background: #ffffff;
+    background: var(--color-blanco);
     width: 280px;
     height: 174px;
     display: flex;
@@ -47,7 +47,7 @@
 }
 
 .ventajas__nombre{
-    color: #132ea7;
+    color: var(--color-hover-link);
     font-weight: 700;
     font-size: 1rem;
     width: 144px;
