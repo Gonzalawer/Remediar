@@ -32,30 +32,6 @@
 </head>
 
 <body>
-    <!-- Menú Cabecera -->
-    <!--
-    <header class="contenedor menu__navegacion">
-        <div class="cabecera">
-            <div class="nombre__empresa">
-                <img src="img/logo-sin-fondo.png" alt="Logo Remediar" class="logo">
-                <p class="nombre">Remediar</p>
-            </div>
-            <div class="menu">
-                <nav class="menu__navegacion">
-                    <ul class="menu__lista">
-                        <li class="menu__item"><a href="#empresa" class="menu__link">Empresa</a></li>
-                        <li class="menu__item"><a href="#mediador" class="menu__link">¿Por qué un Mediador?</a></li>
-                        <li class="menu__item"><a href="#servicios" class="menu__link">Servicios</a></li>
-                        <li class="menu__item"><a href="#nosotros" class="menu__link">Nosotros</a></li>
-                        <li class="menu__item"><a href="#ventajas" class="menu__link">Ventajas</a></li>
-                        <li class="menu__item"><a href="#conflictos" class="menu__link">Conflictos</a></li>
-                        <li class="menu__item"><a href="#contacto" class="menu__link">Contacto</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
-    -->
 
     <!-- Menú Nuevo Responsive -->
     <header class="contenedor menu">
@@ -381,6 +357,7 @@
                             <textarea rows="5" name="message" id="message"
                                 placeholder="Hola, mi consulta es la siguiente:"
                                 required=""></textarea>
+                            <input type="checkbox" name="verificacion" id="verificacion" required=""><span>He leído y acepto el</span><a href="#"> Aviso de Privacidad</a>
                             <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
                         </fieldset>
                         <input type="submit" value="Enviar Mensaje">
@@ -430,20 +407,25 @@
                 <h2 class="footer__titulo">Avisos</h2>
                 <ul class="footer__avisos--lista">
                     <li class="footer__avisos--item">Términos de Uso</li>
-                    <li class="footer__avisos--item">Privacidad de Datos</li>
+                    <li class="footer__avisos--item">Aviso de Privacidad</li>
                 </ul>
             </div>
 
             <!-- Sección footer atribuciones-->
             <div class="atribuciones">
                 <h2 class="footer__titulo">Atribuciones</h2>
+                <ul class="atribuciones__lista">
+                    <li class="atribuciones__item"><a href="https://www.flaticon.es/iconos-gratis/disputa" title="disputa iconos" target="_blank">Iconos por Flaticon</a></li>
+                </ul>
             </div>
+
+            <!--  Créditos -->
 
         </div>
 
         <div class="creditos">
             <p class="creditos">Remediar 2023</p>
-            <p class="soporte">Cualquier asunto relacionado con este portal favor de dirigirse a: gonza.8bits@gmail.com
+            <p class="soporte">Cualquier asunto relacionado con este portal favor de enviar un correo electrónico a <a href="mailto:gonza.8bits@gmail.com" class="mail__admin">Administrador</a>
             </p>
         </div>
 

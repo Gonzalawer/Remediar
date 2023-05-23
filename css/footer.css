@@ -65,14 +65,21 @@
     padding-bottom: .375rem;
 }
 
-/* créditos */
+/* atribuciones */
 
 .creditos{
-    
     color: var(--color-texto);
     text-align: center;
     font-size: .7rem;
     font-weight: 700;
+}
+
+.atribuciones__lista{
+    list-style: none;
+}
+
+.mail__admin{
+    font-size: .7rem;
 }
 
 /* Responsive */
